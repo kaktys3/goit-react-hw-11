@@ -1,0 +1,26 @@
+.from {
+    display: flex;
+    gap: 20px;
+    align-self: center;
+}
+
+.task-input {
+    padding: 10px 20px;
+    border-radius: 10px;
+        font-size: 15px;
+    font-weight: 600;
+}
+
+.task-input::placeholder{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.submit-button {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
